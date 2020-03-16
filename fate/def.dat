@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Node Name = "Root" Description = "Root" Type = "0x640500401004000" SymbolIndex = "1" Serializer = "0x540100401014000">
+<Node Name = "Name" Description = "Game Name" Type = "0x6405004010040c0" SymbolIndex = "1" Serializer = "0x5401004010140c0">FATE</Node>
+<Node Name = "Path" Description = "Game Folder" Type = "0x6405004010040c0" SymbolIndex = "2" Serializer = "0x5401004010140c0"></Node>
+<Node Name = "LaunchFile" Description = "Game Launcher" Type = "0x6405004010040c0" SymbolIndex = "3" Serializer = "0x5401004010140c0">fate.exe</Node>
+<Node Name = "LaunchArgs" Description = "Launch Parameters" Type = "0x6405004010040c0" SymbolIndex = "4" Serializer = "0x5401004010140c0"></Node>
+<Node Name = "DPID" Description = "Distribution Partner Id" Type = "0x6405004010040c0" SymbolIndex = "5" Serializer = "0x5401004010140c0">{EE440DF0-EDBB-4696-BC7A-40FD3AD59E69}</Node>
+<Node Name = "ID" Description = "Game Id" Type = "0x6405004010040c0" SymbolIndex = "6" Serializer = "0x5401004010140c0">{E2BABA4F-C37B-4A6C-8F00-0D303441C2D3}</Node>
+<Node Name = "Locked" Description = "Locked Status" Type = "0x6405004010040c0" SymbolIndex = "7" Serializer = "0x5401004010140c0">Locked</Node>
+<Node Name = "MenuDir" Description = "Menu Folder" Type = "0x6405004010040c0" SymbolIndex = "8" Serializer = "0x5401004010140c0"></Node>
+<Node Name = "Shortcut" Description = "Desktop Link" Type = "0x6405004010040c0" SymbolIndex = "9" Serializer = "0x5401004010140c0"></Node>
+<Node Name = "Installed" Description = "Status of Game" Type = "0x6405004010040c0" SymbolIndex = "10" Serializer = "0x5401004010140c0">true</Node>
+<Node Name = "InstallDate" Description = "Date game was installed" Type = "0x6405004010040c0" SymbolIndex = "11" Serializer = "0x5401004010140c0">__INSTALLDATE__</Node>
+<Node Name = "Thumbnail" Description = "Thumbnail File" Type = "0x6405004010040c0" SymbolIndex = "12" Serializer = "0x5401004010140c0">GameChannel\Games\E2BABA4F-C37B-4A6C-8F00-0D303441C2D3\thumb.jpg</Node>
+<Node Name = "GameDescription" Description = "Short game description" Type = "0x6405004010040c0" SymbolIndex = "13" Serializer = "0x5401004010140c0">Adventure and treasure await you and your pet.  Meet your Fate in the depths of the deep dark dungeon. </Node>
+<Node Name = "BuyURL" Description = "URL for buying the game" Type = "0x6405004010040c0" SymbolIndex = "14" Serializer = "0x5401004010140c0">http://register.wildtangent.com/product_purchase.asp?pguid=E2BABA4F-C37B-4A6C-8F00-0D303441C2D3</Node>
+<Node Name = "DRM3LicenseList" Description = "Comma-separated list of all associated licenses" Type = "0x6405004010040c0" SymbolIndex = "15" Serializer = "0x5401004010140c0">4B39DF83-1063-4fcc-B1B4-0E116120D387</Node>
+<Node Name = "HelpFile" Description = "Location of Help File" Type = "0x6405004010040c0" SymbolIndex = "16" Serializer = "0x5401004010140c0">GameChannel\Games\E2BABA4F-C37B-4A6C-8F00-0D303441C2D3\help.exe</Node>
+</Node>

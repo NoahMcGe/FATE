@@ -1,0 +1,14 @@
+var buildVersion = "07/06/2005  12:56 AM";
+var contentName = "fate";
+var dpName = "wildgames";
+var productID = "E2BABA4F-C37B-4A6C-8F00-0D303441C2D3";
+var contentID = "6BDF3201-10E6-46ED-9A87-7FD18C418CFD";
+var dpID = "EE440DF0-EDBB-4696-BC7A-40FD3AD59E69";
+var useLeaderboard = "1";
+var buyURL = "http://register.wildtangent.com/product_purchase.asp?pguid=E2BABA4F-C37B-4A6C-8F00-0D303441C2D3";
+var moreInfoURL = "http://register.wildtangent.com/ecomm/predir/pageredirect.asp?prodguid={E2BABA4F-C37B-4A6C-8F00-0D303441C2D3}&pagetype=7";
+var codeBase = "";
+var versionBase = "#version=3,2,0,007";
+var uiLang = "en";
+var useTracking = "1";
+var launchWindowed = "0";

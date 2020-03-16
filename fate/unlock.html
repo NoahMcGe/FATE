@@ -1,0 +1,50 @@
+<!doctype html public "-//w3c//dtd xhtml 1.0 strict//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title id="title"></title>	
+	<link rel="stylesheet" type="text/css" href="wire/wire.css">
+	<script language="javascript" type="text/javascript" src="wire/js/wire.js"></script>
+	<script language="javascript" type="text/javascript" src="wire/js/unlock.js"></script>
+</head>
+
+<body id="body" scroll="no">
+	<div id="header"><img id="product_logo" name="product_logo.jpg" /><img id="client_logo" name="client_logo.jpg" /></div>
+	
+	<div id="top_nav">
+		<img class="arrow_image" name="arrow.gif" /><a href="javascript:OpenRedirector('leaderboard.aspx')">Leaderboards</a>
+		<img class="arrow_image" name="arrow.gif" /><a href="javascript:OpenRedirector('forums.aspx')">Community</a>
+		<img class="arrow_image" name="arrow.gif" /><a href="javascript:OpenRedirector('aboutgame.aspx')">About This Game</a>
+	</div>
+	
+	<div id="content">
+		<img id="feature_image" name="feature_00.jpg" />
+		
+		<div id="content_right">
+			<p class="unlock_text">
+				After you buy the game, copy &amp; paste or type in your Unlock Code into 
+				the box below then click &#34;Submit&#34;. <span class="smallerText">(Example: 1234-5678-9ABC)</span>
+			</p>
+			
+			<input type="text" size="30" id="unlock_textInput" name="unlock_textInput" onkeypress="if( event.keyCode == 13 ) {inputSubmit()}" value="" />
+			<img id="btn_submit" name="btn_submit.png" 
+				onclick="inputSubmit()" onmouseover="SetImageOver(this, 'btn_submit_over.png')" 
+				onmouseout="SetImageOver(this, 'btn_submit.png')" />
+			
+			<span id="errorText"></span>
+		</div>
+	</div>
+	
+	<div id="button_ad_space">
+		<img id="btn_back" onclick="history.back();" class="button button_pos1" name="btn_back.png" onmouseover="SetImageOver(this, 'btn_back_over.png')" onmouseout="SetImageOut(this, 'btn_back.png')" alt="Back" />
+		<img id="ad" name="house.jpg" onclick="OpenRedirector('moregames.aspx')" 
+			onmouseover="SetImageOver(this, 'house.jpg')" onmouseout="SetImageOver(this, 'house.jpg')" />
+	</div>
+	
+	<div id="bottom_nav">
+		<a id="link_left" href="javascript:OpenRedirector('termsofuse.aspx')">Terms of use</a>
+		<img class="separator_bar" name="separator_bar.png" /><a href="javascript:OpenRedirector('help.aspx')">Help</a>
+		<img class="separator_bar" name="separator_bar.png" /><a href="javascript:OpenRedirector('eula.aspx')">EULA Applies &ndash; Click here to read</a>
+		<span class="copyright">&copy; 2005 WildTangent, Inc. All Rights Reserved</span>
+	</div>
+</body>
+</html>

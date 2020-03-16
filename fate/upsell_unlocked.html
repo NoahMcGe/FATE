@@ -1,0 +1,58 @@
+<!doctype html public "-//w3c//dtd xhtml 1.0 strict//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-strict.dtd">
+<html>
+<head>
+	<title id="title"></title>
+	<link rel="stylesheet" type="text/css" href="wire/wire.css" />
+
+	<script language="javascript" type="text/javascript" src="wire/js/wire.js"></script>
+	<script language="javascript" type="text/javascript" src="wire/js/upsell_unlocked.js"></script>
+</head>
+
+<body scroll="no">
+	<div id="header"><img id="product_logo" name="cross_logo.jpg" /><img id="client_logo" name="client_logo.jpg" /></div>
+	
+	<div id="top_nav">
+		<img class="arrow_image" name="arrow.gif" /><a href="javascript:OpenRedirector('leaderboard.aspx')">Leaderboards</a>
+		<img class="arrow_image" name="arrow.gif" /><a href="javascript:OpenRedirector('forums.aspx')">Community</a>
+		<img class="arrow_image" name="arrow.gif" /><a href="javascript:OpenRedirector('aboutgame.aspx')">About This Game</a>
+	</div>
+
+	<div id="content">
+		<img id="feature_image" name="cross_00.jpg" />
+		
+		<div id="content_right">
+			<span class="headline_text">
+				More Great Games Are Only A Click Away!
+			</span>
+			
+			<ul>
+				<li>Award-Winning Games from the Best Game Designers in the World</li>
+				<li>The Most Creative, Fun-Loving Characters Ever Developed</li>
+				<li>Incredible 3D Graphics, Soundtracks, and Storylines</li>
+				<li>Weekly Contests &amp; Prizes</li>
+				<li>Submit Your High Scores &amp; View the Global Leaderboards</li>
+			</ul>
+		</div>	
+	</div>
+	
+	<div id="button_ad_space">
+		<img id="btn_more_games" name="btn_more_games.png" class="button button_pos1" alt="More Games" 
+			onclick="OpenRedirector('moregames.aspx')" onmouseover="SetImageOver(this, 'btn_more_games_over.png')" 
+			onmouseout="SetImageOut(this, 'btn_more_games.png')" />
+			
+		<img id="btn_quit" name="btn_quit.png" class="button button_pos3" alt="Quit"
+			onclick="ExitShell()" onmouseover="SetImageOver(this, 'btn_quit_over.png')" 
+			onmouseout="SetImageOut(this, 'btn_quit.png')" />
+
+		<img id="ad" name="house.jpg" onclick="OpenRedirector('moregames.aspx')" 
+			onmouseover="SetImageOver(this, 'house.jpg')" onmouseout="SetImageOver(this, 'house.jpg')" />
+	</div>
+	
+	<div id="bottom_nav">
+		<a id="link_left" href="javascript:OpenRedirector('termsofuse.aspx')">Terms of use</a>
+		<img class="separator_bar" name="separator_bar.png" /><a href="javascript:OpenRedirector('help.aspx')">Help</a>
+		<img class="separator_bar" name="separator_bar.png" /><a href="javascript:OpenRedirector('eula.aspx')">EULA Applies &ndash; Click here to read</a>
+		<span class="copyright">&copy; 2005 WildTangent, Inc. All Rights Reserved</span>
+	</div>
+</body>
+</html>
